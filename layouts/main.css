@@ -1,1 +1,46 @@
+/* Page Wrappers */
+#page-wrapper
+{
+	background-color: #E94F08;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
 
+/* Layout */
+#left-container
+{
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	background-color: #D61800;
+}
+#left-container div
+{
+	text-align: center;
+}
+#right-container
+{
+	margin-left: 25%;
+	padding: 1px 10px;
+	height: 100px;
+}
+
+/* Individual Elements */
+.nav ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo
+{
+	width: 90%;
+}
+
+a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
