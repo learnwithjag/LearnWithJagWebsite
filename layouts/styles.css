@@ -11,19 +11,27 @@
 #left-container
 {
 	position: fixed;
-	width: 25%;
+	width: 12em;
 	height: 100%;
-	background-color: #D61800;
-}
-#left-container div
-{
+	background-color: black;
+	border-right: 2px solid white;
 	text-align: center;
+	overflow: auto;
+	direction: rtl;
 }
+
 #right-container
 {
-	margin-left: 25%;
-	padding: 1px 10px;
+	margin-left: 12em;
+	padding: 1px 15px;
 	height: 100px;
+}
+
+@media only screen and (max-width: 600px)
+{
+	#page-wrapper
+	{
+	}
 }
 
 /* Individual Elements */
@@ -36,11 +44,24 @@
 
 #logo
 {
-	width: 90%;
+	width: 70%;
 }
 
-a
+/* Navigation */
+
+a.nav-button
 {
+	display:inline-block;
+	padding: 0.5em 3em;
+	border: 3px solid #FFFFFF;
+	margin: 0.2em;
+	border-radius: 0.4em;
+	box-sizing: border-box;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+a.nav-button:hover
+{
+	background: #202020;
 }
