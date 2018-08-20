@@ -1,33 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+      <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+      <title>Jag Learning</title>
+  </head>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="layouts/styles.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"/> 
-    <title>Jag Learning</title>
-</head>
-<body id="page-wrapper">
-  <section id="left-container">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(function(){
-        $("header").load("/LearnWithJagWebsite/header.html");
-      });
-    </script>
-    <header/>
-  </section>
-  <section id="right-container">
-    <div id="introduction">
-      <h1>Jag</h1>
-      <h2>Heading 2</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Aenean eleifend, erat in aliquet rhoncus, ante dui sodales quam, sit amet porta dolor leo vel arcu. Integer euismod hendrerit urna ullamcorper convallis. Mauris a convallis dolor. Integer elit velit, fermentum quis euismod eu, maximus nec augue. Aenean justo lectus, egestas non lobortis vitae, commodo eget lectus. Ut at quam ultrices, dapibus orci et, mattis mi. Etiam gravida pulvinar mollis. Maecenas vehicula consequat dui, nec maximus erat iaculis et. Curabitur accumsan turpis sed ligula pellentesque placerat. Duis eu augue augue. Phasellus porta mauris eu ante semper malesuada. Praesent in purus velit. Nullam in lorem quis leo sagittis blandit. Nunc orci diam, rhoncus non erat dapibus, tincidunt fringilla purus. Vestibulum nec eros cursus, finibus enim ut, convallis lacus. Sed sit amet enim ipsum. </p>  
+  <body>
+    <div id="container">
+      <header>
+        <img src="images/logo.png" width="75" height="75" alt="logo" id="logo"/>
+        <h1>Jag Learning</h1>
+      </header>
+      <nav>
+        <h1>Learn by Subject</h1>
+        <a class="nav-item" href="biology/index.html">Biology</a>
+        <a class="nav-item" href="#" >Chemistry</a>
+        <a class="nav-item" href="#">Physics</a>
+        <a class="nav-item" href="#">Computer Science</a>
+      </nav>
+      <article>
+        <h1>Welcome to Jag Learning</h1>
+        <p>Mauris molestie mattis magna, sit amet molestie ligula tincidunt vel. Curabitur et molestie mi. Integer eget metus efficitur, convallis ante at, mattis metus. Nulla pulvinar elementum ultricies. Nunc ut sodales neque. Duis dictum augue ac semper lacinia. Proin congue porttitor enim, et gravida orci. Etiam sed lorem enim. Nullam vitae dui id purus imperdiet commodo. Morbi eget enim at mauris commodo tristique. Aenean at ante sed mi porta viverra. Pellentesque tempor imperdiet lorem sit amet rutrum. Duis malesuada lacinia lorem nec suscipit. Phasellus eget imperdiet leo. Proin eget sapien mi. </p>
+      </article>
+      <footer style="text-align: center;">
+        <a href="https://github.com/learnwithjag/LearnWithJagWebsite">GitHub</a>
+      </footer>
     </div>
-  </section>
-  <footer>
-    <a href="https://github.com/learnwithjag/LearnWithJagWebsite">GitHub</a>
-  </footer>
-</body>
+  </body>
 </html>
