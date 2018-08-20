@@ -1,28 +1,31 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Jag Learning | Biology</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="/LearnWithJagWebsite/layouts/styles.css"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="../styles.css" />
+      <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+      <title>Jag Learning</title>
   </head>
-  <body id="page-wrapper">
-    <section id="left-container">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script>
-        $(function(){
-        $("header").load("/LearnWithJagWebsite/header.html");
-        });
-      </script>
-      <header/>
-    </section>
-    <section id="right-container">
-      <div id="introduction">
+
+  <body>
+    <div id="container">
+      <header>
+        <img src="images/logo.png" width="75" height="75" alt="logo" id="logo"/>
+        <h1>Jag Learning</h1>
+      </header>
+      <nav>
+        <h1>Learn by Subject</h1>
+        <a class="nav-item" href="biology/index.html">Biology</a>
+        <a class="nav-item" href="#" >Chemistry</a>
+        <a class="nav-item" href="#">Physics</a>
+        <a class="nav-item" href="#">Computer Science</a>
+      </nav>
+      <article>
         <h1>Biology Homepage</h1>
-      </div>
-    </section>
-    <footer>
-      <a href="https://github.com/learnwithjag/LearnWithJagWebsite">GitHub</a>
-    </footer>
+      </article>
+      <footer style="text-align: center;">
+        <a href="https://github.com/learnwithjag/LearnWithJagWebsite">GitHub</a>
+      </footer>
+    </div>
   </body>
 </html>
