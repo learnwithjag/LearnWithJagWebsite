@@ -1,0 +1,66 @@
+html
+{
+  font-family: 'Didact Gothic', sans-serif;
+  border: none;
+  height: 100%;
+  background: #d0e1f9;
+  overflow-x: hidden;
+}
+
+body{ 
+  height: 100%; 
+  margin: 0;
+}
+
+header { 
+  grid-area: header; 
+  display: inline;
+  position: relative;
+  text-align: center;
+  border-bottom: 5px solid #4d648d;
+  background: #6d84Ad;
+}
+
+#logo
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header h1
+{
+  display: inline;
+  width: 25%;
+  text-align: center;
+}
+
+nav { grid-area: navigation; padding: 0 10px;}
+
+.nav-item
+{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+}
+
+a.nav-item:hover { background: #f3f3f3; }
+
+article { grid-area: word; }
+footer { grid-area: footer; }
+
+#container
+{
+  display: grid;
+  height: 100vh;
+  grid-template-areas:
+    'header header'
+    'navigation word'
+    'footer footer';
+  grid-template-rows: 5em auto 2em;
+  grid-template-columns: 240px auto;
+  align-content: stretch;
+  grid-gap: 0px;
+  grid-column-gap: 10px;
+}
