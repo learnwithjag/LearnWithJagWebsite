@@ -28,11 +28,18 @@ header {
   left: 0;
 }
 
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
 header h1
 {
   display: inline;
   width: 25%;
   text-align: center;
+  
 }
 
 nav { grid-area: navigation; padding: 0 10px;}
@@ -45,7 +52,7 @@ nav { grid-area: navigation; padding: 0 10px;}
   padding: 10px;
 }
 
-a.nav-item:hover { background: #f3f3f3; }
+a:hover { background: #f3f3f3; }
 
 article { grid-area: word; }
 footer { grid-area: footer; }
