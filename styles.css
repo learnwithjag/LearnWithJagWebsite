@@ -52,7 +52,7 @@ nav { grid-area: navigation; padding: 0 10px;}
   padding: 10px;
 }
 
-a.nav-list:hover { background: #f3f3f3; }
+a.nav-item:hover { background: #f3f3f3; }
 
 article { grid-area: word; }
 footer { grid-area: footer; }
