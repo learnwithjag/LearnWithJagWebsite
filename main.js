@@ -14,11 +14,11 @@ function setup()
   let lessons = document.getElementsByClassName('lesson');
   for(let i = 0; i < unitHeader.length; i++)
   {
-     unitHeader[i].addEventListener('click', dropdown, false);
+     unitHeader[i].addEventListener('mousedown', dropdown, false);
   }
   for(let i = 0; i < lessons.length; i++)
   {
-     lessons[i].addEventListener('click', change, false);
+     lessons[i].addEventListener('mousedown', change, false);
   }
   
   console.log(lessons.length);
