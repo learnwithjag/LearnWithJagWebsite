@@ -49,7 +49,20 @@ nav { grid-area: navigation; padding: 0 10px;}
   display: block;
   text-decoration: none;
   text-align: center;
+}
+  #video, #notes { width: 48%; height: 80%; border: none;}
+.nav-item, .lesson, .unitHeader
+{
+  display: block;
+  text-decoration: none;
+  text-align: center;
   padding: 10px;
+  cursor: pointer;
+}
+.lesson-container { display: none;}
+.unitHeader{ text-align: left; margin: auto;}
+
+a:hover, .unitHeader:hover { background: #f3f3f3; }padding: 10px;
 }
 
 a.nav-item:hover { background: #f3f3f3; }
