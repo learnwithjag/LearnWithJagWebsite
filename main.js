@@ -2,16 +2,16 @@ let data;
 let ctr;
 let subject = document.body.id;
 let video = document.getElementById("video");
+let notes = document.getElementById("notes");
 
 function preload() {
-  data = loadJSON("/links.json");
+  data = loadJSON("/LearnWithJagWebsite/links.json");
 }
 
 function setup() {
   noCanvas();
   let unitHeader = document.getElementsByClassName("unitHeader");
   let lessonContainer = document.getElementsByClassName("lesson-container");
-  let lessons = document.getElementsByClassName("lesson");
   ctr = 0;
   for (let i = 0; i < unitHeader.length; i++) {
     let unit = getUnit(i);
