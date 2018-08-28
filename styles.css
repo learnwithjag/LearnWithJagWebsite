@@ -50,7 +50,9 @@ nav { grid-area: navigation; padding: 0 10px;}
   text-decoration: none;
   text-align: center;
 }
-  #video, #notes { width: 48%; height: 80%; border: none;}
+
+#video, #notes { width: 48%; height: 80%; border: none;}
+
 .nav-item, .lesson, .unitHeader
 {
   display: block;
@@ -58,12 +60,13 @@ nav { grid-area: navigation; padding: 0 10px;}
   text-align: center;
   padding: 10px;
   cursor: pointer;
+  word-wrap: break-word;
 }
+
 .lesson-container { display: none;}
 .unitHeader{ text-align: left; margin: auto;}
 
-a:hover, .unitHeader:hover { background: #f3f3f3; }padding: 10px;
-}
+a:hover, .unitHeader:hover { background: #f3f3f3; }
 
 a.nav-item:hover { background: #f3f3f3; }
 
