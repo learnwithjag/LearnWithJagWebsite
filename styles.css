@@ -60,6 +60,7 @@ nav { grid-area: navigation; padding: 0 10px;}
   text-align: center;
   padding: 10px;
   cursor: pointer;
+  font-size: 13pt;
   word-wrap: break-word;
 }
 
