@@ -48,7 +48,8 @@ function change(event) {
 
   video.src =
     "https://www.youtube.com/embed/" +
-    data.subjects[subject][lessonNum].videoLink;
+    data.subjects[subject][lessonNum].videoLink +
+    "?rel=0";
   notes.src =
     "https://docs.google.com/document/d/e/2PACX-" +
     data.subjects[subject][lessonNum].docLink +
