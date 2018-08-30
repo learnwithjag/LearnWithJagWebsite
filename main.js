@@ -5,7 +5,7 @@ let video = document.getElementById("video");
 let notes = document.getElementById("notes");
 
 function preload() {
-  data = loadJSON("/LearnWithJagWebsite/links.json");
+  data = loadJSON("/links.json");
 }
 
 function setup() {
