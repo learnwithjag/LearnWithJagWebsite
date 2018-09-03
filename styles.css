@@ -88,3 +88,26 @@ footer { grid-area: footer; }
   grid-gap: 0px;
   grid-column-gap: 10px;
 }
+
+@media screen and (max-width: 479px) {
+  #container
+  {
+    grid-template-areas:
+      'header'
+      'navigation'
+      'word'
+      'footer';
+    grid-template-columns: auto;
+    grid-template-rows: 75px auto;
+  }
+  article
+  {
+    height: 700px;
+  }
+  #notes, #video
+  {
+    display: block;
+    width: 100%;
+    height: 45%;
+  }
+}
