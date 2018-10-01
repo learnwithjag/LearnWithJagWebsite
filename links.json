@@ -28,7 +28,14 @@
          "docLink": "1vT940hayQpuSnN_HvOSNlRGpKz8Sv6BZToTdA_Kxma1it4xdBDbhyeIW9SYh_oB1tH4uwESpIyV2YwU"
        }
      ],
-     "physics": [],
+     "physics": [
+      {
+         "unit": 3,
+         "name": "Advanced Force Problem",
+         "videoLink": "T8vXrUg31yE",
+         "docLink": ""
+       }
+     ],
      "computer_science": []
    }
 }
