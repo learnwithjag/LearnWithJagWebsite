@@ -92,6 +92,10 @@ footer { grid-area: footer; }
   grid-column-gap: 10px;
 }
 
+.uil-link {
+  text-decoration: underline;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
